@@ -1,0 +1,107 @@
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-shard" viewBox="0 0 24 24"><path d="M12 2.5 19.5 9.5 12 21.5 4.5 9.5Z"/><path d="M4.5 9.5h15M12 2.5 9.2 9.5 12 21.5l2.8-12Z"/></symbol>
+  <symbol id="i-pause" viewBox="0 0 24 24"><rect x="6" y="5" width="4" height="14" rx="1.5"/><rect x="14" y="5" width="4" height="14" rx="1.5"/></symbol>
+  <symbol id="i-sound" viewBox="0 0 24 24"><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4Z"/><path d="M15.5 9a4 4 0 0 1 0 6M18 6.5a7.5 7.5 0 0 1 0 11"/></symbol>
+  <symbol id="i-mute" viewBox="0 0 24 24"><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4Z"/><path d="m16 9.5 5 5m0-5-5 5"/></symbol>
+  <symbol id="i-ship" viewBox="0 0 24 24"><path d="M12 2.8 14.6 12l6.4 4.6-.4 1.6-6.1-1.2L12 21l-2.5-4-6.1 1.2-.4-1.6L9.4 12Z"/></symbol>
+  <symbol id="i-flag" viewBox="0 0 24 24"><path d="M6 21V3.5"/><path d="M6 4.5c3-1.6 5.5 1.6 8.5 0s4 0 4 0v8s-1-1.6-4 0-5.5-1.6-8.5 0"/></symbol>
+  <symbol id="i-trophy" viewBox="0 0 24 24"><path d="M7.5 4h9v5a4.5 4.5 0 0 1-9 0Z"/><path d="M7.5 6H4.5a3 3 0 0 0 3 4M16.5 6h3a3 3 0 0 1-3 4M12 13.5V17M8.5 20.5h7M9.5 17h5v3.5h-5Z"/></symbol>
+  <symbol id="i-badge" viewBox="0 0 24 24"><path d="M12 2.5 20 7v10l-8 4.5L4 17V7Z"/><path d="m8.5 12 2.5 2.5 4.5-5"/></symbol>
+  <symbol id="i-sliders" viewBox="0 0 24 24"><path d="M4 7h9M17 7h3M4 17h3M11 17h9"/><circle cx="15" cy="7" r="2.2"/><circle cx="9" cy="17" r="2.2"/></symbol>
+  <symbol id="i-camera" viewBox="0 0 24 24"><path d="M4 8.5h3l1.8-2.5h6.4L17 8.5h3v10H4Z"/><circle cx="12" cy="13" r="3.3"/></symbol>
+  <symbol id="i-frame" viewBox="0 0 24 24"><rect x="7" y="3" width="10" height="18" rx="2"/><path d="M4 7V4.5M4 17v2.5M20 7V4.5M20 17v2.5"/></symbol>
+  <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></symbol>
+  <symbol id="i-save" viewBox="0 0 24 24"><path d="M12 4v11m-4.5-4.5L12 15l4.5-4.5M5 19.5h14"/></symbol>
+  <symbol id="i-copy" viewBox="0 0 24 24"><rect x="8.5" y="8.5" width="11" height="11" rx="2.5"/><path d="M15.5 5.5v-1a1.5 1.5 0 0 0-1.5-1.5H6A1.5 1.5 0 0 0 4.5 4.5V13A1.5 1.5 0 0 0 6 14.5h1"/></symbol>
+  <symbol id="i-play" viewBox="0 0 24 24"><path d="M8 5.5v13l10.5-6.5Z"/></symbol>
+  <symbol id="i-again" viewBox="0 0 24 24"><path d="M19 12a7 7 0 1 1-2.1-5"/><path d="M19.5 4v4.5H15"/></symbol>
+  <symbol id="i-home" viewBox="0 0 24 24"><path d="M4 11 12 4.5l8 6.5M6.5 9.5V19.5h11V9.5"/><path d="M10 19.5v-5h4v5"/></symbol>
+  <symbol id="i-lock" viewBox="0 0 24 24"><rect x="5.5" y="10.5" width="13" height="9.5" rx="2.5"/><path d="M8.5 10.5V8a3.5 3.5 0 0 1 7 0v2.5"/></symbol>
+  <symbol id="i-roll" viewBox="0 0 24 24"><path d="M5 12a7 7 0 0 1 12-4.9"/><path d="M19 12a7 7 0 0 1-12 4.9"/><path d="M17.5 3.5v4h-4M6.5 20.5v-4h4"/></symbol>
+  <symbol id="i-magnet" viewBox="0 0 24 24"><path d="M6 4.5v7a6 6 0 0 0 12 0v-7h-4v7a2 2 0 0 1-4 0v-7Z"/><path d="M6 8h4M14 8h4"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3 19 6v5.5c0 4.5-3 7.8-7 9.5-4-1.7-7-5-7-9.5V6Z"/></symbol>
+  <symbol id="i-comet" viewBox="0 0 24 24"><circle cx="15.5" cy="8.5" r="4"/><path d="M12.5 11.5 4 20M11 8 5.5 13.5M16 12.5 10.5 18"/></symbol>
+</svg>
+
+<div id="app">
+  <div id="stage">
+    <canvas id="gl" tabindex="-1" aria-label="Game view"></canvas>
+    <div id="vignette"></div>
+    <div id="fx-speed"></div>
+    <div id="fx-fever"></div>
+    <div id="flash"></div>
+
+    <div id="hud" hidden>
+      <div class="hud-tl">
+        <div id="hScore" class="score">0</div>
+        <div class="sub"><span><span id="hDist">0</span>&nbsp;m</span><span aria-hidden="true">·</span><span id="hClock">05:30</span></div>
+      </div>
+      <div class="hud-tr">
+        <div class="pill"><svg class="ic shard-ic"><use href="#i-shard"/></svg><span id="hShards">0</span></div>
+        <button id="pauseBtn" class="btn btn-icon" type="button" data-i18n-aria="pause"><svg class="ic fill"><use href="#i-pause"/></svg></button>
+      </div>
+      <div id="hCombo" class="hud-combo" hidden><b id="hMult">×2</b><i><span id="hComboBar"></span></i><em id="hFever" hidden data-i18n="fever">FEVER</em></div>
+      <div id="hPower" class="hud-power"></div>
+      <div id="hRoll" class="hud-roll ready" aria-hidden="true"><svg class="ic"><use href="#i-roll"/></svg></div>
+      <div id="banner" class="banner"></div>
+      <div id="hint" class="hint"><span class="hand"></span><span id="hintText"></span></div>
+      <div id="popups"></div>
+    </div>
+
+    <section id="menu" class="screen" hidden>
+      <div class="menu-top">
+        <span class="brand-mini" data-i18n="courier">Nectar moon · courier line</span>
+        <div class="chips">
+          <button id="langBtn" class="chip" type="button" aria-label="Language">EN</button>
+          <button id="soundBtn" class="chip" type="button" data-i18n-aria="sound"><svg class="ic"><use href="#i-sound"/></svg></button>
+        </div>
+      </div>
+      <div class="menu-hero">
+        <h1 class="logo" aria-label="Sunskip">
+          <span style="--i:0;--c:var(--coral)">S</span><span style="--i:1;--c:var(--butter)">U</span><span style="--i:2;--c:var(--mint)">N</span><span style="--i:3;--c:var(--lilac)">S</span><span style="--i:4;--c:var(--peach)">K</span><span style="--i:5;--c:var(--coral)">I</span><span style="--i:6;--c:var(--butter)">P</span>
+        </h1>
+        <p class="tagline" data-i18n-html="tagline"></p>
+      </div>
+      <div class="menu-actions">
+        <div class="mode-row">
+          <button id="playFree" class="btn btn-xl btn-coral" type="button"><span class="big" data-i18n="fly">FLY</span><small id="freeMeta"></small></button>
+          <button id="playDaily" class="btn btn-xl btn-mint" type="button"><span class="big" data-i18n="daily">DAILY</span><small id="dailyMeta"></small></button>
+        </div>
+        <nav class="menu-row">
+          <button class="btn btn-sq" type="button" data-open="hangar"><svg class="ic"><use href="#i-ship"/></svg><span data-i18n="hangar">Hangar</span></button>
+          <button class="btn btn-sq" type="button" data-open="missions"><svg class="ic"><use href="#i-flag"/></svg><span data-i18n="missions">Missions</span><span id="missionDot" class="dot" hidden>0</span></button>
+          <button class="btn btn-sq" type="button" data-open="board"><svg class="ic"><use href="#i-trophy"/></svg><span data-i18n="board">Board</span></button>
+          <button class="btn btn-sq" type="button" data-open="log"><svg class="ic"><use href="#i-badge"/></svg><span data-i18n="log">Log</span></button>
+          <button class="btn btn-sq" type="button" data-open="settings"><svg class="ic"><use href="#i-sliders"/></svg><span data-i18n="settings">Settings</span></button>
+        </nav>
+      </div>
+      <footer class="menu-foot">
+        <span class="keys" data-i18n-html="keys"></span>
+        <span class="wallet"><svg class="ic shard-ic"><use href="#i-shard"/></svg><span id="walletVal">0</span></span>
+      </footer>
+    </section>
+
+    <div id="overlay" class="overlay" hidden></div>
+    <div id="photo" hidden>
+      <div class="frame-guides"></div>
+      <div class="ph-top" id="phFilters"></div>
+      <div class="ph-hint" id="phHint"></div>
+      <div class="ph-bottom">
+        <button id="phExit" class="btn btn-icon" type="button" data-i18n-aria="close"><svg class="ic"><use href="#i-close"/></svg></button>
+        <button id="phShoot" class="shutter" type="button" data-i18n-aria="takePhoto"></button>
+        <button id="phRatio" class="btn btn-icon" type="button" data-i18n-aria="capture"><svg class="ic"><use href="#i-frame"/></svg></button>
+      </div>
+    </div>
+    <div class="cap-badge">REC · 9:16</div>
+    <div id="toasts" aria-live="polite"></div>
+
+    <div id="loader">
+      <div class="ld">
+        <div class="ld-sun" id="ldSun"></div>
+        <div class="ld-name">SUNSKIP</div>
+        <div class="ld-msg" id="ldMsg">Warming up the moon · 0%</div>
+      </div>
+    </div>
+  </div>
+</div>
+<noscript><div class="noscript-note">Sunskip needs JavaScript and WebGL to run.</div></noscript>
